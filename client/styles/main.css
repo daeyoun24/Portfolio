@@ -1,0 +1,14 @@
+#zombieHead {
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 1em;
+    position: relative;
+    animation-name: zombieHead;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zombieHead {
+    25%  {transform: rotate(9deg);}
+    75%  {transform: rotate(-9deg);}
+}

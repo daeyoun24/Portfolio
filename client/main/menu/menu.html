@@ -1,0 +1,39 @@
+<md-toolbar class="md-warn md-hue-2" layout="row" layout-align="start center" ng-cloak>
+    <div hide-xs layout-margin>
+        <md-button class="md-raised" ng-repeat="menu in ctrl.menus" ng-click="ctrl.openModal(menu, $event)"
+                   ng-disabled="">
+            <div layout="row" layout-align="center center">
+                {{menu.name}}
+                <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-hide=""></md-icon>
+            </div>
+        </md-button>
+        <md-button class="md-primary" ng-click="ctrl.unlockAll()" ng-hide="ctrl.unlockedAll">Unlock All
+        </md-button>
+    </div>
+
+    <md-menu hide-gt-xs>
+        <md-button class="md-icon-button" ng-click="ctrl.openMenu($mdOpenMenu, $event)" aria-label="Menu">
+            <md-icon md-svg-src="/icons/ic_menu_white_24px.svg"></md-icon>
+        </md-button>
+        <md-menu-content width="3">
+            <md-menu-item ng-repeat="menu in ctrl.menus">
+                <md-button class="md-raised" ng-disabled="">
+                    <div layout="row" layout-align="start center">
+                        {{menu.name}}
+                        <span flex></span>
+                        <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-hide=""></md-icon>
+                    </div>
+                </md-button>
+            </md-menu-item>
+            <md-menu-item ng-hide="ctrl.unlockedAll">
+                <md-button class="md-primary" ng-click="ctrl.unlockAll()">Unlock All</md-button>
+            </md-menu-item>
+        </md-menu-content>
+    </md-menu>
+
+    <span flex></span>
+
+    <div layout="row" layout-align="end center" layout-margin>
+        <h4>{{ctrl.username}}</h4>
+    </div>
+</md-toolbar>
