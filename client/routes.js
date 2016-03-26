@@ -3,11 +3,14 @@ angular.module('portfolio')
         $locationProvider.html5Mode(true);
 
         $stateProvider
+            .state('auth', {
+                url: '/welcome',
+                template: '<auth></auth>'
+            })
             .state('main', {
                 url: '/portfolio',
                 templateUrl: 'client/main/main.html'
             });
-        // TODO: create welcome status
 
-        $urlRouterProvider.otherwise("/portfolio");
+        $urlRouterProvider.otherwise("/welcome");
     });

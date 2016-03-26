@@ -1,13 +1,13 @@
 <md-toolbar class="md-warn md-hue-2" layout="row" layout-align="start center" ng-cloak>
     <div hide-xs layout-margin>
         <md-button class="md-raised" ng-repeat="menu in ctrl.menus" ng-click="ctrl.openModal(menu, $event)"
-                   ng-disabled="">
+                   ng-disabled="!ctrl.auth.isGuest">
             <div layout="row" layout-align="center center">
                 {{menu.name}}
-                <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-hide=""></md-icon>
+                <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-show="!ctrl.auth.isGuest"></md-icon>
             </div>
         </md-button>
-        <md-button class="md-primary" ng-click="ctrl.unlockAll()" ng-hide="ctrl.unlockedAll">Unlock All
+        <md-button class="md-primary" ng-click="ctrl.unlockAll()" ng-show="!ctrl.auth.isGuest && !ctrl.unlockedAll">Unlock All
         </md-button>
     </div>
 
@@ -21,11 +21,11 @@
                     <div layout="row" layout-align="start center">
                         {{menu.name}}
                         <span flex></span>
-                        <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-hide=""></md-icon>
+                        <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-show="!ctrl.auth.isGuest"></md-icon>
                     </div>
                 </md-button>
             </md-menu-item>
-            <md-menu-item ng-hide="ctrl.unlockedAll">
+            <md-menu-item ng-show="!ctrl.auth.isGuest && !ctrl.unlockedAll">
                 <md-button class="md-primary" ng-click="ctrl.unlockAll()">Unlock All</md-button>
             </md-menu-item>
         </md-menu-content>

@@ -7,11 +7,15 @@ angular.module('portfolio').directive('portfolio', function () {
     }
 });
 
-function portfolioController($scope, $reactive) {
+function portfolioController($scope, $reactive, $state, authService) {
     $reactive(this).attach($scope);
 
+    this.state = $state;
+
     this.restart = () => {
-        // TODO: redirect to index page
-        console.log("restart");
+        localStorage.removeItem("user");
+        authService.reset();
+        Meteor.logout();
+        $state.go('auth');
     };
 }

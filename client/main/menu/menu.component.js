@@ -7,9 +7,10 @@ angular.module('portfolio').directive('menu', function () {
     }
 });
 
-function menuController($scope, $reactive) {
+function menuController($scope, $reactive, authService) {
     $reactive(this).attach($scope);
 
+    this.auth = authService;
     this.unlockedAll = false;
     this.menus = [{
         name: "Profile"
@@ -20,7 +21,8 @@ function menuController($scope, $reactive) {
     }, {
         name: "Contact"
     }];
-    this.username = "Testing";
+    let user = Meteor.user();
+    this.username = (user) ? user.username : "Guest";
 
     this.unlockAll = () => {
         console.log("unlock all");

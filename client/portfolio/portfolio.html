@@ -4,6 +4,8 @@
         <h2>Youn Kim</h2>
     </div>
 
-    <md-button class="md-warn" ng-click="portfolio.restart()">Restart</md-button>
+    <md-button class="md-warn" ng-show="portfolio.state.current.name === 'main'"
+               ng-click="portfolio.restart()">Restart
+    </md-button>
 </md-content>
 <div ui-view flex></div>

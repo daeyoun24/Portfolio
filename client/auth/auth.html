@@ -1,0 +1,23 @@
+<md-content class="md-hue-3" layout="column" layout-align="space-around center">
+
+    <!--<img src="images/castle_beige.png">-->
+    <h1>Welcome!</h1>
+
+    <span flex></span>
+
+    <form name="authForm" layout="column" layout-align="center center">
+        <div layout="row" layout-align="center center">
+            <input ng-model="username" placeholder="Enter a username..." required>
+            <md-button class="md-raised md-primary" ng-disabled="authForm.$invalid"
+                       ng-click="auth.createUser(username)"> Start
+            </md-button>
+        </div>
+
+        <h4>Or...</h4>
+
+        <md-button class="md-raised md-accent" ng-click="auth.accessAsGuest()">
+            Bring me to the portfolio ASAP
+        </md-button>
+    </form>
+
+</md-content>
