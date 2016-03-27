@@ -5,7 +5,7 @@ angular.module('portfolio')
         $stateProvider
             .state('auth', {
                 url: '/welcome',
-                template: '<auth></auth>'
+                template: '<auth layout="row" flex></auth>'
             })
             .state('main', {
                 url: '/portfolio',

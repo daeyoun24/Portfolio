@@ -1,17 +1,18 @@
-<md-content class="md-hue-3" layout="column" layout-align="space-around center">
+<md-content class="md-hue-3" layout="column" layout-align="space-around center" flex>
 
     <!--<img src="images/castle_beige.png">-->
     <h1>Welcome!</h1>
 
-    <span flex></span>
-
     <form name="authForm" layout="column" layout-align="center center">
         <div layout="row" layout-align="center center">
-            <input ng-model="username" placeholder="Enter a username..." required>
+            <input id="nameInput" ng-model="username" placeholder="Enter a username..." required>
             <md-button class="md-raised md-primary" ng-disabled="authForm.$invalid"
                        ng-click="auth.createUser(username)"> Start
             </md-button>
         </div>
+        <md-toolbar id="authErr" ng-show="auth.error" class="md-warn" layout-padding layout-margin>
+            <p class="md-body-1">{{auth.error}}</p>
+        </md-toolbar>
 
         <h4>Or...</h4>
 

@@ -7,32 +7,48 @@ angular.module('portfolio').directive('menu', function () {
     }
 });
 
-function menuController($scope, $reactive, authService) {
+function menuController($scope, $reactive, authService, menuService) {
     $reactive(this).attach($scope);
 
-    this.auth = authService;
-    this.unlockedAll = false;
-    this.menus = [{
-        name: "Profile"
-    }, {
-        name: "Resume"
-    }, {
-        name: "Work"
-    }, {
-        name: "Contact"
-    }];
-    let user = Meteor.user();
-    this.username = (user) ? user.username : "Guest";
+    let user = JSON.parse(localStorage.getItem("user"));
+    this.username = (user && Meteor.userId()) ? user.username : "Guest";
+    this.isGuest = authService.isGuest;
+
+    this.subscribe('inventories');
+    this.subscribe('items');
+
+    this.helpers({
+        inventory: () => {
+            if (this.isGuest) return menuService.guestInventory;
+            return Inventories.findOne({owner: Meteor.userId()});
+        },
+        items: () => {
+            return Items.find({});
+        }
+    });
 
     this.unlockAll = () => {
-        console.log("unlock all");
+        Meteor.call('unlockMenus', this.inventory._id, (error) => {
+            if (error) console.log(error);
+        });
+    };
+
+    this.isUnlockedAll = () => {
+        if (!this.inventory) return false;
+        let unlockedAll = true;
+
+        _.forEach(this.inventory.menus, function(menu) {
+            if (menu.locked) return unlockedAll = false;
+        });
+
+        return unlockedAll;
     };
 
     this.openModal = (menu, ev) => {
-        console.log(menu);
+        menuService.openModal(menu.name, ev);
     };
 
     this.openMenu = ($mdOpenMenu, ev) => {
-        console.log("open menu");
+        $mdOpenMenu(ev);
     };
 }

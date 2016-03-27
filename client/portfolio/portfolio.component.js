@@ -13,9 +13,7 @@ function portfolioController($scope, $reactive, $state, authService) {
     this.state = $state;
 
     this.restart = () => {
-        localStorage.removeItem("user");
         authService.reset();
-        Meteor.logout();
         $state.go('auth');
     };
 }

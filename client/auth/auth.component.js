@@ -10,12 +10,13 @@ angular.module('portfolio').directive('auth', function () {
 function authController($scope, $reactive, $state, authService) {
     $reactive(this).attach($scope);
 
+    let firstVisit = false;
     this.error = "";
 
     this.createUser = (username) => {
+        firstVisit = true;
         Meteor.call('createUserWithUsername', username, (err, res) => {
             if (err) {
-                console.log(err.reason);
                 this.error = err.reason;
             }
             else {
@@ -34,11 +35,19 @@ function authController($scope, $reactive, $state, authService) {
         let user = JSON.parse(localStorage.getItem("user"));
         if (!user) return;
 
+        // Logging in twice logs out user.
+        // So, go to main if logged in.
+        if (Meteor.user()) {
+            $state.go('main');
+            return;
+        }
+
         Meteor.loginWithPassword(user.username, user.userId, (err) => {
             if (err) {
-                this.error = err;
+                this.error = err.reason;
             }
             else {
+                if (firstVisit) Meteor.call('createInventory');
                 $state.go('main');
             }
         });

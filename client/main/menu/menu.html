@@ -1,31 +1,35 @@
 <md-toolbar class="md-warn md-hue-2" layout="row" layout-align="start center" ng-cloak>
     <div hide-xs layout-margin>
-        <md-button class="md-raised" ng-repeat="menu in ctrl.menus" ng-click="ctrl.openModal(menu, $event)"
-                   ng-disabled="!ctrl.auth.isGuest">
+        <md-button class="md-raised" ng-repeat="menu in ctrl.inventory.menus" ng-click="ctrl.openModal(menu, $event)"
+                   ng-disabled="!ctrl.isGuest && menu.locked">
             <div layout="row" layout-align="center center">
                 {{menu.name}}
-                <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-show="!ctrl.auth.isGuest"></md-icon>
+                <md-icon md-svg-src="/icons/ic_lock_white_24px.svg"
+                         ng-show="!ctrl.isGuest && menu.locked"></md-icon>
             </div>
         </md-button>
-        <md-button class="md-primary" ng-click="ctrl.unlockAll()" ng-show="!ctrl.auth.isGuest && !ctrl.unlockedAll">Unlock All
+        <md-button class="md-primary" ng-click="ctrl.unlockAll()" ng-show="!ctrl.isGuest && !ctrl.isUnlockedAll()">
+            Unlock All
         </md-button>
     </div>
 
-    <md-menu hide-gt-xs>
+    <md-menu md-theme="indigo" hide-gt-xs>
         <md-button class="md-icon-button" ng-click="ctrl.openMenu($mdOpenMenu, $event)" aria-label="Menu">
             <md-icon md-svg-src="/icons/ic_menu_white_24px.svg"></md-icon>
         </md-button>
         <md-menu-content width="3">
-            <md-menu-item ng-repeat="menu in ctrl.menus">
-                <md-button class="md-raised" ng-disabled="">
+            <md-menu-item ng-repeat="menu in ctrl.inventory.menus">
+                <md-button class="md-raised" ng-click="ctrl.openModal(menu, $event)"
+                           ng-disabled="!ctrl.isGuest && menu.locked">
                     <div layout="row" layout-align="start center">
                         {{menu.name}}
                         <span flex></span>
-                        <md-icon md-svg-src="/icons/ic_lock_white_24px.svg" ng-show="!ctrl.auth.isGuest"></md-icon>
+                        <md-icon md-svg-src="/icons/ic_lock_white_24px.svg"
+                                 ng-show="!ctrl.isGuest && menu.locked"></md-icon>
                     </div>
                 </md-button>
             </md-menu-item>
-            <md-menu-item ng-show="!ctrl.auth.isGuest && !ctrl.unlockedAll">
+            <md-menu-item ng-show="!ctrl.isGuest && !ctrl.isUnlockedAll()">
                 <md-button class="md-primary" ng-click="ctrl.unlockAll()">Unlock All</md-button>
             </md-menu-item>
         </md-menu-content>
