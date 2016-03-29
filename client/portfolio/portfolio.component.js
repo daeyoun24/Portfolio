@@ -15,5 +15,8 @@ function portfolioController($scope, $reactive, $state, authService) {
     this.restart = () => {
         authService.reset();
         $state.go('auth');
+
+        window.portfolioGame.game.destroy();
+        window.location.reload(); // temporary solution
     };
 }

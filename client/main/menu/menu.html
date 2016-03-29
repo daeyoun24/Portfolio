@@ -39,5 +39,7 @@
 
     <div layout="row" layout-align="end center" layout-margin>
         <h4>{{ctrl.username}}</h4>
+        <img id="ore" ng-show="!ctrl.isGuest" src="/images/ore_diamond.png" alt="Ore" width="32" height="32">
+        <h4>{{ctrl.inventory.gold}}</h4>
     </div>
 </md-toolbar>

@@ -9,8 +9,12 @@ angular.module('portfolio')
             })
             .state('main', {
                 url: '/portfolio',
-                templateUrl: 'client/main/main.html'
+                templateUrl: 'client/main/main.html',
+                onEnter: function () {
+                    window.portfolioGame.main();
+                }
             });
 
         $urlRouterProvider.otherwise("/welcome");
     });
+

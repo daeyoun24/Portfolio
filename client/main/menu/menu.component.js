@@ -28,7 +28,7 @@ function menuController($scope, $reactive, authService, menuService) {
     });
 
     this.unlockAll = () => {
-        Meteor.call('unlockMenus', this.inventory._id, (error) => {
+        Meteor.call('unlockAllMenus', this.inventory._id, (error) => {
             if (error) console.log(error);
         });
     };
