@@ -5,75 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1902aa40-c5f3-4529-a3c9-e643ac07e8db" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Loading/loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/Loading/preload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/brick_grey_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/dirt_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/grass1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/grass2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/grass_brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/gravel_dirt_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/leaves.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/redstone_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/redstone_emerald_alt_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/rock_moss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/stone_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/trunk_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/trunk_mid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bgTiles/wheat_stage1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/items/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/items/ore_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/male_head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sky/clouds2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sky/sky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/dirt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/dirt_grass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/gravel_dirt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/lava.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/redstone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/redstone_emerald.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/redstone_sand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/stone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/stone_gold_alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/tiles/stone_silver_alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ore_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/projects/AnimalPuzzle1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/projects/AnimalPuzzle2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/projects/SecurePlayerPrefs.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/projects/Test_regedit.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/projects/asims1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/projects/asims2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Youn.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/dialog/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/lib/mt.data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/lib/mt.helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/lib/phaser/phaser.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/portfolio/game.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/state/boot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/state/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/state/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/game/state/play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/leaderboard/leaderboard.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/leaderboard/leaderboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phaserHacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phaserHacks2.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phaserHacks2.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/phaserHacks2.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/leaderboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/castle_beige.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/main/leaderboard/leaderboard.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/main/leaderboard/leaderboard.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/dialog/contact.html" afterPath="$PROJECT_DIR$/client/main/dialog/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/dialog/profile.html" afterPath="$PROJECT_DIR$/client/main/dialog/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/dialog/projects.html" afterPath="$PROJECT_DIR$/client/main/dialog/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/dialog/resume.html" afterPath="$PROJECT_DIR$/client/main/dialog/resume.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/main.css" afterPath="$PROJECT_DIR$/client/main/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/auth/auth.html" afterPath="$PROJECT_DIR$/client/auth/auth.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/game/state/play.js" afterPath="$PROJECT_DIR$/client/main/game/state/play.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/main.html" afterPath="$PROJECT_DIR$/client/main/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/menu/menu.component.js" afterPath="$PROJECT_DIR$/client/main/menu/menu.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main/menu/menu.html" afterPath="$PROJECT_DIR$/client/main/menu/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/portfolio/portfolio.component.js" afterPath="$PROJECT_DIR$/client/portfolio/portfolio.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/routes.js" afterPath="$PROJECT_DIR$/client/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/inventories.js" afterPath="$PROJECT_DIR$/model/inventories.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/inventories.js" afterPath="$PROJECT_DIR$/server/inventories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/portfolio/portfolio.css" afterPath="$PROJECT_DIR$/client/portfolio/portfolio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/portfolio/portfolio.html" afterPath="$PROJECT_DIR$/client/portfolio/portfolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/leaderboard.js" afterPath="$PROJECT_DIR$/server/leaderboard.js" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,18 +36,7 @@
     <favorites_list name="Portfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="leaderboard.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/main/leaderboard/leaderboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3547826">
-              <caret line="12" column="0" selection-start-line="0" selection-start-column="4" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,20 +61,16 @@
         <option value="$PROJECT_DIR$/client/navbar/navbar.component.js" />
         <option value="$PROJECT_DIR$/client/menu/menu.component.js" />
         <option value="$PROJECT_DIR$/client/menu/menu.html" />
-        <option value="$PROJECT_DIR$/client/portfolio/portfolio.css" />
-        <option value="$PROJECT_DIR$/client/portfolio/portfolio.html" />
         <option value="$PROJECT_DIR$/client/main/dialog/dialog.controller.js" />
         <option value="$PROJECT_DIR$/client/main/dialog/works.html" />
         <option value="$PROJECT_DIR$/model/items.js" />
         <option value="$PROJECT_DIR$/model/menus.js" />
-        <option value="$PROJECT_DIR$/client/auth/auth.html" />
         <option value="$PROJECT_DIR$/client/auth/auth.css" />
         <option value="$PROJECT_DIR$/client/auth/auth.service.js" />
         <option value="$PROJECT_DIR$/client/main/inventory/inventory.service.js" />
         <option value="$PROJECT_DIR$/client/auth/auth.component.js" />
         <option value="$PROJECT_DIR$/client/main/menu/menu.service.js" />
         <option value="$PROJECT_DIR$/server/items.js" />
-        <option value="$PROJECT_DIR$/client/main/menu/menu.component.js" />
         <option value="$PROJECT_DIR$/client/main/game/game.js" />
         <option value="$PROJECT_DIR$/client/main/game/game.html" />
         <option value="$PROJECT_DIR$/client/main/game/game.component.js" />
@@ -160,23 +86,27 @@
         <option value="$PROJECT_DIR$/client/main/game/main.js" />
         <option value="$PROJECT_DIR$/model/inventories.js" />
         <option value="$PROJECT_DIR$/client/main/game/lib/mt.data.js" />
-        <option value="$PROJECT_DIR$/server/inventories.js" />
         <option value="$PROJECT_DIR$/client/main/game/portfolio/game.component.js" />
         <option value="$PROJECT_DIR$/client/main/game/state/boot.js" />
         <option value="$PROJECT_DIR$/client/main/game/state/load.js" />
         <option value="$PROJECT_DIR$/client/main/game/state/menu.js" />
-        <option value="$PROJECT_DIR$/client/main/game/state/play.js" />
         <option value="$PROJECT_DIR$/client/main/game/portfolio/game.js" />
         <option value="$PROJECT_DIR$/client/main/game/lib/mt.helper.js" />
         <option value="$PROJECT_DIR$/client/routes.js" />
         <option value="$PROJECT_DIR$/client/portfolio/portfolio.component.js" />
         <option value="$PROJECT_DIR$/client/main/main.css" />
         <option value="$PROJECT_DIR$/client/main/menu/menu.html" />
-        <option value="$PROJECT_DIR$/client/main/main.html" />
         <option value="$PROJECT_DIR$/server/user.js" />
-        <option value="$PROJECT_DIR$/server/leaderboard.js" />
         <option value="$PROJECT_DIR$/client/main/leaderboard/leaderboard.component.js" />
+        <option value="$PROJECT_DIR$/client/portfolio/portfolio.html" />
+        <option value="$PROJECT_DIR$/client/portfolio/portfolio.css" />
+        <option value="$PROJECT_DIR$/server/inventories.js" />
         <option value="$PROJECT_DIR$/client/main/leaderboard/leaderboard.html" />
+        <option value="$PROJECT_DIR$/client/main/menu/menu.component.js" />
+        <option value="$PROJECT_DIR$/client/main/main.html" />
+        <option value="$PROJECT_DIR$/client/main/game/state/play.js" />
+        <option value="$PROJECT_DIR$/client/auth/auth.html" />
+        <option value="$PROJECT_DIR$/server/leaderboard.js" />
       </list>
     </option>
   </component>
@@ -223,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,81 +181,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leaderboard" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,19 +207,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\public\js" />
-      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\lib\phaser" />
-      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\lib" />
-      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\portfolio" />
-      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\state" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\public\images" />
       <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\lib" />
       <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\lib\phaser" />
       <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\public\assets" />
       <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\public\js" />
+      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\lib\phaser" />
+      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\lib" />
+      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\portfolio" />
+      <recent name="C:\Users\daeyo\OneDrive\Dev\IdeaProjects\Portfolio\client\main\game\state" />
     </key>
   </component>
   <component name="RunManager" selected="Meteor.Run Meteor">
@@ -856,12 +718,13 @@
       <workItem from="1459113323659" duration="1914000" />
       <workItem from="1459134612741" duration="3354000" />
       <workItem from="1459183933728" duration="13985000" />
-      <workItem from="1459204962943" duration="24376000" />
+      <workItem from="1459204962943" duration="25048000" />
+      <workItem from="1459270480441" duration="4204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91128000" />
+    <option name="totallyTimeSpent" value="96004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -874,7 +737,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -885,9 +748,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31926408" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -900,6 +762,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32896176" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -968,20 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/portfolio/portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39045936">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/portfolio/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24028268">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Documents/2015 Winter/ACS-3909/Project/PortfolioApp/web/components/dialog/dialogController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07589286">
@@ -1010,31 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/auth/auth.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3055092">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/auth/auth.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17801048">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/auth/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38568935">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/auth/auth.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1049,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0609319">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6274165">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5657238">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,22 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/inventories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1153,9 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3327787">
           <caret line="131" column="65" selection-start-line="131" selection-start-column="65" selection-end-line="131" selection-end-column="65" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9434276">
           <caret line="182" column="57" selection-start-line="182" selection-start-column="51" selection-end-line="182" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028286189">
           <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5402098">
           <caret line="481" column="80" selection-start-line="481" selection-start-column="80" selection-end-line="481" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16971713">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23627287">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,16 +1021,6 @@
         <state vertical-scroll-proportion="0.14143094">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main/game/state/play.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1497505">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding>
-            <element signature="e#547#898#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,27 +1040,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/portfolio/portfolio.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5374376">
-          <caret line="19" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../socially/model/parties.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8668885">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,15 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main/menu/menu.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62229615">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,14 +1058,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028286189">
           <caret line="1" column="68" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/portfolio/portfolio.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39932886">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/auth/auth.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main/menu/menu.html">
+    <entry file="file://$PROJECT_DIR$/client/auth/auth.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69043475">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4010067">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/portfolio/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47304347">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/portfolio/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1315,42 +1108,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/user.js">
+    <entry file="file://$PROJECT_DIR$/client/main/menu/menu.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44425955">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main/menu/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59130436">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main/game/state/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5657238">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+          <folding>
+            <element signature="e#547#898#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/auth/auth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/inventories.js">
+    <entry file="file://$PROJECT_DIR$/model/items.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4425957">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main/leaderboard/leaderboard.component.js">
+    <entry file="file://$PROJECT_DIR$/model/inventories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33943427">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="6" selection-end-line="18" selection-end-column="9" />
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/leaderboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.113144755">
-          <caret line="4" column="8" selection-start-line="0" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.14143094">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main/leaderboard/leaderboard.html">
+    <entry file="file://$PROJECT_DIR$/server/inventories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3547826">
-          <caret line="12" column="0" selection-start-line="0" selection-start-column="4" selection-end-line="12" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.83028287">
+          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
           <folding />
         </state>
       </provider>

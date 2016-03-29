@@ -50,11 +50,11 @@ window.portfolioGame.state.play = {
         this.game.physics.arcade.collide(this.character, this.items, this.collect, null, this);
 
         if (this.cursors.left.isDown) {
-            this.character.body.velocity.x = -200;
+            this.character.body.velocity.x = -400;
             this.character.scale.x = 1;
         }
         else if (this.cursors.right.isDown) {
-            this.character.body.velocity.x = 200;
+            this.character.body.velocity.x = 400;
             this.character.scale.x = -1;
         }
         else {
@@ -62,7 +62,7 @@ window.portfolioGame.state.play = {
         }
 
         if (this.cursors.up.isDown) {
-            this.character.body.velocity.y = -300;
+            this.character.body.velocity.y = -600;
         }
     },
     collect: function (character, item) {

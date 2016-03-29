@@ -12,3 +12,7 @@
     25%  {transform: rotate(9deg);}
     75%  {transform: rotate(-9deg);}
 }
+
+#topBar {
+    overflow-y: hidden;
+}
